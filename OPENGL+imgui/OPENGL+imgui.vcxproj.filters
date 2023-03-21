@@ -1,0 +1,229 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="shader">
+      <UniqueIdentifier>{86b59b4d-a75e-4d13-8591-95362176e3e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="重构">
+      <UniqueIdentifier>{71c6bdb0-af27-4723-8b0b-f45cf3519bd1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third">
+      <UniqueIdentifier>{dc51b016-dd4a-4bd2-ac0e-084dda4ef4ee}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="light.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="my_main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="alpha.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="framebuffer_my.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="skybox.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="render.cpp">
+      <Filter>重构</Filter>
+    </ClCompile>
+    <ClCompile Include="UI.cpp">
+      <Filter>重构</Filter>
+    </ClCompile>
+    <ClCompile Include="model.cpp">
+      <Filter>资源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\glad\src\glad.c">
+      <Filter>third</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\imgui\imgui_impl_glfw.cpp">
+      <Filter>third</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\imgui\imgui.cpp">
+      <Filter>third</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\imgui\imgui_demo.cpp">
+      <Filter>third</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\imgui\imgui_draw.cpp">
+      <Filter>third</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\imgui\imgui_impl_dx11.cpp">
+      <Filter>third</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\imgui\imgui_impl_opengl3.cpp">
+      <Filter>third</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\imgui\imgui_impl_win32.cpp">
+      <Filter>third</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\imgui\imgui_tables.cpp">
+      <Filter>third</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\imgui\imgui_widgets.cpp">
+      <Filter>third</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="light.hpp">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\learnopengl\camera.h">
+      <Filter>资源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\learnopengl\entity.h">
+      <Filter>资源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\learnopengl\filesystem.h">
+      <Filter>资源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\learnopengl\mesh.h">
+      <Filter>资源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\learnopengl\model.h">
+      <Filter>资源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\learnopengl\model_animation.h">
+      <Filter>资源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\learnopengl\root_directory.h">
+      <Filter>资源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\learnopengl\shader.h">
+      <Filter>资源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\learnopengl\animation.h">
+      <Filter>资源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\learnopengl\animator.h">
+      <Filter>资源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\learnopengl\animdata.h">
+      <Filter>资源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\learnopengl\assimp_glm_helpers.h">
+      <Filter>资源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\learnopengl\bone.h">
+      <Filter>资源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="alpha.hpp">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="framebuffer_my.hpp">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="skybox.hpp">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="render.hpp">
+      <Filter>重构</Filter>
+    </ClInclude>
+    <ClInclude Include="UI.hpp">
+      <Filter>重构</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\imgui\imgui_internal.h">
+      <Filter>third</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\imgui\imstb_rectpack.h">
+      <Filter>third</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\imgui\imstb_textedit.h">
+      <Filter>third</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\imgui\imstb_truetype.h">
+      <Filter>third</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\imgui\imconfig.h">
+      <Filter>third</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\imgui\imgui.h">
+      <Filter>third</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\imgui\imgui_impl_dx11.h">
+      <Filter>third</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\imgui\imgui_impl_glfw.h">
+      <Filter>third</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\imgui\imgui_impl_opengl3.h">
+      <Filter>third</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\imgui\imgui_impl_opengl3_loader.h">
+      <Filter>third</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\imgui\imgui_impl_win32.h">
+      <Filter>third</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\glfw\glfw3native.h">
+      <Filter>third</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\glfw\glfw3.h">
+      <Filter>third</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\stb_image.h">
+      <Filter>third</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="1.model_loading.vs">
+      <Filter>shader</Filter>
+    </None>
+    <None Include="1.model_loading.fs">
+      <Filter>shader</Filter>
+    </None>
+    <None Include="..\shader_defult\alpha.fs">
+      <Filter>shader</Filter>
+    </None>
+    <None Include="..\shader_defult\alpha.vs">
+      <Filter>shader</Filter>
+    </None>
+    <None Include="lightcube.fs">
+      <Filter>shader</Filter>
+    </None>
+    <None Include="lightcube.vs">
+      <Filter>shader</Filter>
+    </None>
+    <None Include="..\shader_defult\5.1.framebuffers_screen.fs">
+      <Filter>shader</Filter>
+    </None>
+    <None Include="..\shader_defult\5.1.framebuffers_screen.vs">
+      <Filter>shader</Filter>
+    </None>
+    <None Include="..\shader_defult\skybox.vs">
+      <Filter>shader</Filter>
+    </None>
+    <None Include="..\shader_defult\skybox.fs">
+      <Filter>shader</Filter>
+    </None>
+    <None Include="..\shader_defult\mirror.vs">
+      <Filter>shader</Filter>
+    </None>
+    <None Include="..\shader_defult\mirror.fs">
+      <Filter>shader</Filter>
+    </None>
+    <None Include="..\shader_defult\debug_quad.vs">
+      <Filter>shader</Filter>
+    </None>
+    <None Include="..\shader_defult\debug_quad.fs">
+      <Filter>shader</Filter>
+    </None>
+    <None Include="..\shader_defult\shadow_mapping_depth.vs">
+      <Filter>shader</Filter>
+    </None>
+    <None Include="..\shader_defult\shadow_mapping_depth.fs">
+      <Filter>shader</Filter>
+    </None>
+  </ItemGroup>
+</Project>

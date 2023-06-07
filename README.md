@@ -5,6 +5,4 @@
 3. 使用GLFW+GLAD
 4. UI使用了Dear_imgui
 5. 加载半分钟左右
-![image](https://github.com/ppqoing/OPENGL-imgui_tiny/assets/91516934/114bb962-adda-4d14-aa98-057ba6565d74)
-![image](https://github.com/ppqoing/OPENGL-imgui_tiny/assets/91516934/b2099091-2fba-4503-a15f-c4908a3c759f)
 

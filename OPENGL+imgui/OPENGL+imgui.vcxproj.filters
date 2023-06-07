@@ -18,6 +18,9 @@
     <Filter Include="third">
       <UniqueIdentifier>{dc51b016-dd4a-4bd2-ac0e-084dda4ef4ee}</UniqueIdentifier>
     </Filter>
+    <Filter Include="ziyvan">
+      <UniqueIdentifier>{9eed0103-2e67-4e47-8413-d14b248153e4}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="light.cpp">
@@ -225,5 +228,35 @@
     <None Include="..\shader_defult\shadow_mapping_depth.fs">
       <Filter>shader</Filter>
     </None>
+    <None Include="backpack\backpack.mtl">
+      <Filter>ziyvan</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="backpack\ao.jpg">
+      <Filter>ziyvan</Filter>
+    </Image>
+    <Image Include="backpack\diffuse.jpg">
+      <Filter>ziyvan</Filter>
+    </Image>
+    <Image Include="backpack\normal.png">
+      <Filter>ziyvan</Filter>
+    </Image>
+    <Image Include="backpack\roughness.jpg">
+      <Filter>ziyvan</Filter>
+    </Image>
+    <Image Include="backpack\specular.jpg">
+      <Filter>ziyvan</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="backpack\backpack.obj">
+      <Filter>ziyvan</Filter>
+    </Object>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="backpack\source_attribution.txt">
+      <Filter>ziyvan</Filter>
+    </Text>
   </ItemGroup>
 </Project>
